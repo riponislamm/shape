@@ -1,0 +1,85 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:aqua;
+}
+.green{
+	height:150px;
+	width:300px;
+	background:white;
+	overflow:hidden;
+	float:right;
+	border:1px solid black;
+}
+.flagwrapper{
+	overflow:hidden;
+	width:317px;
+	transition:1s;
+}
+.red{
+	height:80px;
+	width:80px;
+	background:red;
+	border-radius:100%;
+	margin-top:38px;
+	
+}
+.square{
+	height:200px;
+	width:200px;
+	background:red;
+}
+.circle{
+	border:3px dashed black;
+	background:tomato;
+	height:200px;
+	width:200px;
+	border-radius:100px;
+}
+.stand{
+	width:15px;
+	height:500px;
+	border:1px solid black;
+	background:linear-gradient(to right,black,white);
+	float:left;
+	margin-top:-152px;
+}
+
+.flagwrapper:hover .green{
+	background:green;
+	border:1px solid black;
+
+	overflow:hidden
+	
+}
+.flagwrapper:hover{height:500px;}
+.flagwrapper:hover .stand{
+	position:absolute;
+	background:linear-gradient(to right,white,black);
+	margin-top:0px
+}
+.triangle{
+	height:0px;
+	width:0px;
+	border-bottom:200px solid indigo;
+	border-right:100px solid transparent;
+	border-left:100px solid transparent;
+	
+}
+.rectangle{
+	height:200px;
+	width:280px;
+	background:orange;
+}
+.oval{
+	border:1px solid #0000007a;
+	height:140px;
+	width:200px;
+	border-radius:50%;
+	background:radial-gradient(white,#808080c9)
+}
+
+
+
+
+
